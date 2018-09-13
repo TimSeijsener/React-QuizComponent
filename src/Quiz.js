@@ -11,10 +11,9 @@ class Quiz extends Component {
   }
 
   render(){
-    const isQuizEnd = ((this.state.quiz_position -1) === quizData.quiz.questions.lenght)
+    const isQuizEnd = true
+ // ((this.state.quiz_position -1) === quizData.quiz.questions.lenght)
 
-    //true
-    
     return(
       <div>
       {isQuizEnd ? <QuizEnd /> :
